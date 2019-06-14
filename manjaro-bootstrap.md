@@ -18,5 +18,7 @@ git clone git@github.com:jasooonko/linux-notes.git
 sudo pacman -Sy neovim zsh
 sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-sudo pacman -S opera tmux aws-cli
+sudo pacman -S opera tmux aws-cli docker
+
+systemctl start docker
 ```
